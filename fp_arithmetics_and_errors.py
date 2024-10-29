@@ -47,7 +47,7 @@ print()
 
 # Overflow error
 print("Overflow error")
-print("The harmonic sum of 10^6 raised to the power of 6969 will cause an overflow error:", end=" ")
+print("The harmonic sum of 10^6 raised to the power of 6969 should cause an overflow error:", end=" ")
 try:    
     print(harmonic_sum(10**6)**6969)    
 except OverflowError as e:
@@ -59,7 +59,7 @@ print()
 
 # Underflow error
 print("Underflow error")
-print("The harmonic sum of 10^6 raised to the power of -6969 will cause an underflow error:", end=" ")
+print("The harmonic sum of 10^6 raised to the power of -6969 should cause the result of 0.0:", end=" ")
 try:
     print(harmonic_sum(10**6)**(-6969))
 except ZeroDivisionError as e:

@@ -56,18 +56,4 @@ def newton_rhapson(
 
 
 
-f = lambda x: x**2 - 2
-x0 = 10
-exact_root = 1.4142135623730951
-
-# expected root is 2
-# iterate from h = 1 to h = 1e-20 and print errors
-
-for h in range(16):
-    h = 10**-h
-    root = newton_rhapson(f, x0, h=h, h_ord=2, max_iter=5)
-    error = abs(root - exact_root)
-    print(f"h = {h:.0e}, root = {root:.10f}, error = {error:.10f}")
-    
-
 
