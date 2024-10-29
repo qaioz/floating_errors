@@ -62,6 +62,9 @@ python cli.py <fun:int> <x0:float> [--h_ord:<2|4>] [--max_iter:<int>]
 
 - **`--max_iter`**: (Optional) Maximum number of iterations for the Newton-Raphson method (default is 2).
 
+The program run and displays the result with different step sizes raning from 
+
+h = 1 to h = 1e16(maximum decimal precision in python)
 
 ### Example
 
