@@ -38,7 +38,7 @@ In this part, we implement the Newton-Raphson method to find the roots of functi
 
 ### Implementation
 
-The implementation is provided in `cli.py`. This script performs Newton-Raphson iterations and prints the errors for different step sizes \( h \).
+The implementation is provided in `finite_differences.py` and `cli.py`. The `finite_differences.py` file contains the core functions for the Newton-Raphson method and Richardson extrapolation. The `cli.py` file provides a command-line interface for running the program with different parameters.
 
 ### Usage
 
