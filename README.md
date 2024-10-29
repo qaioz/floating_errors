@@ -68,3 +68,5 @@ python cli.py <fun:int> <x0:float> [--h_ord:<2|4>] [--max_iter:<int>]
 As you can see, initially erorrs are decreaseing, but after some point, they start to increase. 
 
 ![alt text](./for_readme/im2.png)
+
+![alt text](./for_readme/im3.png)
